@@ -4,13 +4,13 @@ import { Container, Heading, Text } from "@chakra-ui/react";
 import Navigation from "../components/Navigation";
 import PageTransition from "../components/PageTransition";
 
-const Home: NextPage = () => {
+const About: NextPage = () => {
     return (
         <>
             <Navigation />
             <Container maxWidth="1230px" marginY="24px">
                 <PageTransition>
-                    <Heading>Home</Heading>
+                    <Heading>About</Heading>
                     <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Text>
                 </PageTransition>
             </Container>
@@ -18,4 +18,4 @@ const Home: NextPage = () => {
     );
 };
 
-export default Home;
+export default About;
