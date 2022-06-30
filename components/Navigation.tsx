@@ -6,12 +6,12 @@ export default function Navigation() {
     const { isOpen, onToggle } = useDisclosure();
 
     return (
-        <Box>
+        <Box as="nav">
             <Flex minHeight="60px" py={2} px={2} align="center" borderBottom={1} borderStyle="solid" borderColor="#3B2C40">
                 <Container>
                     <Flex flex={{ base: 1 }} justify={{ base: "center", md: "start" }}>
                         <Text textAlign={{ base: "center", md: "left" }} fontFamily="heading" fontWeight="600">
-                            yehezkieldio
+                            @yehezkieldio
                         </Text>
                     </Flex>
                 </Container>
