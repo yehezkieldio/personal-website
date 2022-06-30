@@ -11,7 +11,7 @@ export const theme = extendTheme({
             foreground: "#dbe1e8",
         },
         secondary: {
-            background: "#0e162b",
+            background: "#091521",
             foreground: "#ccd9dc",
         },
     },
