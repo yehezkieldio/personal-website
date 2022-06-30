@@ -8,7 +8,7 @@ const variants = {
     exit: { opacity: 0 },
 };
 
-const ChakraBox = chakra(motion.main, {
+const ChakraBox = chakra(motion.div, {
     shouldForwardProp: (prop) => isValidMotionProp(prop) || prop === "children",
 });
 

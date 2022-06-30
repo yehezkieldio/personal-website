@@ -91,7 +91,7 @@ interface NavigationItem {
 
 const NAVIGATION_ITEMS: Array<NavigationItem> = [
     {
-        label: "home",
+        label: "index",
         href: "/",
     },
     {

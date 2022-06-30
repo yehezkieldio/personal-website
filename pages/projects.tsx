@@ -1,20 +1,14 @@
 import type { NextPage } from "next";
-import { Container, Heading, Text } from "@chakra-ui/react";
+import { Heading, Text } from "@chakra-ui/react";
 
-import Navigation from "../components/Navigation";
-import PageTransition from "../components/PageTransition";
+import PageContainer from "../components/PageContainer";
 
 const Projects: NextPage = () => {
     return (
-        <>
-            <Navigation />
-            <Container maxWidth="1230px" marginY="24px">
-                <PageTransition>
-                    <Heading>Projects</Heading>
-                    <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Text>
-                </PageTransition>
-            </Container>
-        </>
+        <PageContainer title="yehezkieldio">
+            <Heading>Projects</Heading>
+            <Text>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit sequi tempore magnam.</Text>
+        </PageContainer>
     );
 };
 
