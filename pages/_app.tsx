@@ -7,7 +7,7 @@ import { theme } from "../utils/theme";
 function PortfolioApp({ Component, pageProps }: AppProps) {
     return (
         <>
-            <AnimatePresence exitBeforeEnter initial={false} onExitComplete={() => window.scrollTo(0, 0)}>
+            <AnimatePresence exitBeforeEnter initial={true} onExitComplete={() => window.scrollTo(0, 0)}>
                 <ChakraProvider resetCSS theme={theme}>
                     <Component {...pageProps} />
                 </ChakraProvider>
