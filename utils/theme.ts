@@ -2,8 +2,8 @@ import { extendTheme } from "@chakra-ui/react";
 
 export const theme = extendTheme({
     fonts: {
-        heading: `'Be Vietnam Pro', sans-serif`,
-        body: `'Inter', sans-serif`,
+        heading: `'PlayFair Display', sans-serif`,
+        body: `'Be Vietnam Pro', sans-serif`,
     },
     colors: {
         primary: {
