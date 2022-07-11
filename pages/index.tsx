@@ -34,7 +34,7 @@ const Index: NextPage = () => {
                     <HStack>
                         <Icon as={IoGitNetworkOutline} w={6} h={6} />
                         <Text fontSize={{ base: "xs", md: "md" }} fontWeight="normal">
-                            Intern Web Developer at <strong>Department of Labor and Social Balikpapan</strong>.
+                            Freelance Web Developer
                         </Text>
                     </HStack>
                 </Stack>
